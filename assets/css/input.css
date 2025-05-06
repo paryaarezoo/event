@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("../fonts/pelak/pelak-font-face.css");
+@import url("../fonts/Vazirmatn/Vazirmatn-font-face.css");
