@@ -12,8 +12,11 @@ module.exports = {
         accent: "#213555",
         secondary: "#213448",
         primary: "#7AC6D2",
+        hover: "#eaeaea",
 
       },
+      darkMode: "class",
+
     },
   },
   plugins: [],

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/output.css" />
+
+    <style>
+        #vanta-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    </style>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body dir="rtl" class="bg-transparent bg-opacity-50" id="hero-bg">
+
+    <header
+        class="w-full flex justify-between items-center bg-gray-100 p-4 shadow-lg px-16 shadow-gray-400 sticky top-0 z-50">
+        <div>
+            <h1 class="text-2xl text-accent font-bold">کدلرن 2025</h1>
+        </div>
+        <div class="flex items-center gap-16 ">
+            <nav class="flex gap-5">
+                <a href="./about.html"
+                    class="text-secondary cursor-pointer font-bold hover:text-primary transition duration-200">درباره</a>
+                <a class="text-secondary cursor-pointer font-bold hover:text-primary transition duration-200">سخنران
+                    ها</a>
+                <a class="text-secondary cursor-pointer font-bold hover:text-primary transition duration-200">برنامه</a>
+                <a class="text-secondary cursor-pointer font-bold hover:text-primary transition duration-200">ثبت
+                    نام</a>
+            </nav>
+            <button class="hover:text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="30" fill="currentColor"
+                    class="bi bi-brightness-alt-high-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3m8 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5m-13.5.5a.5.5 0 0 0 0-1h-2a.5.5 0 0 0 0 1zm11.157-6.157a.5.5 0 0 1 0 .707l-1.414 1.414a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m-9.9 2.121a.5.5 0 0 0 .707-.707L3.05 5.343a.5.5 0 1 0-.707.707zM8 7a4 4 0 0 0-4 4 .5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5 4 4 0 0 0-4-4" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="container mx-auto ">
+        <section
+            class="text-white mt-10 mb-10 flex flex-col lg:flex lg:flex-row lg:items-center lg:justify-around sm:items-center p-10">
+            <div class="mb-5 lg:mb-0 lg:mr-5">
+                <h2 class="text-6xl font-bold">درباره کدلرن</h2>
+                <p class="text-justify p-5">
+                    اینجا جاییه برای شنیدن داستان آدم‌هایی که مسیرهای حرفه‌ای متفاوتی رو رفتن. با هم یاد می‌گیریم،
+                    شبکه‌سازی می‌کنیم، ایده می‌گیریم و از همه مهم‌تر، انرژی می‌گیریم برای ادامه راه. توی این ایونت،
+                    برنامه‌نویسی نمی‌کنیم؛ بلکه با تجربه‌ها، مسیرها و چالش‌های واقعی آشنا می‌شیم.
+                </p>
+            </div>
+
+            <div class="text-center w-1/2">
+                <img src="./assets/img/20943566.jpg" class="rounded-lg" alt="">
+
+            </div>
+        </section>
+
+
+        <section class="text-white mt-28 mb-10 flex flex-col justify-center items-center gap-16">
+            <div>
+                <h3 class="text-3xl font-bold bg-primary/40 p-5 rounded-3xl">اعضا تیم</h3>
+            </div>
+
+            <div class="flex flex-col gap-28 justify-center items-center">
+                <div
+                    class="lg:bg-gray-100/50 sm:bg-gray-100/50 sm:p-5 lg:p-5 lg:rounded-lg sm:rounded-lg sm:hover:bg-hover lg:hover:bg-hover transition duration-300 lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-10 md:flex sm:flex-col sm:gap-10 sm:items-center sm:justify-center">
+                    <div>
+                        <img src="./assets/img/150.jpg" class="lg:rounded-lg sm:rounded-lg sm:w-full sm:mx-auto"
+                            alt="#">
+
+                    </div>
+                    <div class="sm:text-center lg:text-start text-accent space-y-5">
+                        <span class="text-3xl font-bold  text-primary">رها توکلی</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptate.</p>
+
+                    </div>
+                </div>
+
+
+                <div
+                    class="lg:bg-gray-100/50 sm:bg-gray-100/50 sm:p-5 lg:p-5 lg:rounded-lg sm:rounded-lg sm:hover:bg-hover lg:hover:bg-hover transition duration-300 lg:flex lg:flex-row-reverse lg:items-center lg:justify-center lg:gap-10 md:flex sm:flex-col sm:gap-10 sm:items-center sm:justify-center">
+                    <div>
+                        <img src="./assets/img/150.jpg" class="rounded-lg" alt="" style="width: 500;">
+
+                    </div>
+                    <div class="sm:text-center lg:text-end text-accent space-y-5">
+                        <span class="text-3xl font-bold text-primary">رها توکلی</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptate.</p>
+
+                    </div>
+                </div>
+
+
+                <div
+                    class="lg:bg-gray-100/50 sm:bg-gray-100/50 sm:p-5 lg:p-5 lg:rounded-lg sm:rounded-lg sm:hover:bg-hover lg:hover:bg-hover transition duration-300 lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-10 md:flex sm:flex-col sm:gap-10 sm:items-center sm:justify-center">
+                    <div>
+                        <img src="./assets/img/150.jpg" class="rounded-lg" alt="">
+
+                    </div>
+                    <div class="sm:text-center lg:text-start text-accent space-y-5">
+                        <span class="text-3xl font-bold  text-primary">رها توکلی</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptate.</p>
+
+                    </div>
+                </div>
+
+                <div
+                    class="lg:bg-gray-100/50 sm:bg-gray-100/50 sm:p-5 lg:p-5 lg:rounded-lg sm:rounded-lg sm:hover:bg-hover lg:hover:bg-hover transition duration-300 lg:flex lg:flex-row-reverse lg:items-center lg:justify-center lg:gap-10 md:flex sm:flex-col sm:gap-10 sm:items-center sm:justify-center">
+                    <div>
+                        <img src="./assets/img/150.jpg" class="rounded-lg" alt="">
+
+                    </div>
+                    <div class="sm:text-center  lg:text-end text-accent space-y-5">
+                        <span class="text-3xl font-bold  text-primary">رها توکلی</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptate.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </div>
+
+    <footer
+        class="bg-gradient-to-t from-primary/70 text-white py-10 px-28 md:flex md:justify-around md:items-center gap-16 mt-20 sm:block sm:space-y-10">
+        <div>
+            <h4 class="text-2xl font-bold mb-4">صفحات اصلی</h4>
+            <ul>
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">رویدادها</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-2xl font-bold mb-4">اطلاعات بیشتر</h4>
+            <ul>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-2xl font-bold mb-4">حساب کاربری</h4>
+            <ul class="flex items-center gap-2 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                    <path fill-rule="evenodd"
+                        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                </svg>
+                <li class="items-center self-center"><a class="self-start" href="#">ورود</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#hero-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x3f79ff,
+            backgroundColor: 0x251945
+        });
+    </script>
+</body>
+
+</html>
